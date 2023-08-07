@@ -1,0 +1,19 @@
+{
+  "name": "c4-nexus.github.io",
+  "version": "1.0.0",
+  "description": "c4-nexus plp home assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c4-nexus/c4-nexus.github.io.git"
+  },
+  "author": "Daniel Dushev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c4-nexus/c4-nexus.github.io/issues"
+  },
+  "homepage": "https://github.com/c4-nexus/c4-nexus.github.io#readme"
+}

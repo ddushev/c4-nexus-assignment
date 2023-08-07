@@ -1,0 +1,12 @@
+.price-filter {
+    margin-top: 20px; 
+  }
+  
+  .price-filter h4 {
+    margin-bottom: 10px;
+  }
+  
+  .price-filter label {
+    display: block;
+    margin-bottom: 5px;
+  }

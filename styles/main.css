@@ -1,0 +1,126 @@
+@import url(product.css);
+@import url(cart.css);
+@import url(metalFilter.css);
+@import url(priceFilter.css);
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #f0e5e5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#categories-select {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#categories-select li {
+  margin: 0 10px;
+}
+
+#categories-select li a {
+  text-decoration: none;
+}
+
+.active {
+  color: #0056b3;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #007bff;
+  text-transform: uppercase;
+}
+
+.product-counter {
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.filtering {
+  padding: 10px;
+}
+
+.sorting {
+  padding: 10px;
+  text-align: right;
+}
+
+.category-description {
+  text-align: center;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+li:hover {
+  color: #0056b3;
+}
+
+
+@media (max-width: 675px) {
+  .sorting {
+    text-align: center;
+  }
+
+  main {
+    display: block;
+  }
+  .price-filter,
+  .metal-filter {
+    text-align: center;
+  }
+}

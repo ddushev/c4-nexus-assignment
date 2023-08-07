@@ -1,0 +1,12 @@
+.metal-filter {
+    margin-top: 20px; 
+  }
+  
+  .metal-filter h4 {
+    margin-bottom: 10px;
+  }
+  
+  .metal-filter label {
+    display: block;
+    margin-bottom: 5px;
+  }

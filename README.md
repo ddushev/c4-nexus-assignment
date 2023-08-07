@@ -1,2 +1,2 @@
-# c4-nexus-assignment
-PLP for E-commerce for Junior Web Developer position at C4 Nexus
+# Product landing page assignment for Junior Web developer role at C4-Nexus
+Find more info in Requirements.md and Summary.md files.
