@@ -1,7 +1,7 @@
 # PLP for E-store
 
 # Overview
-PLP on which you can choose between three categories, filter based on two criterias simultaneously, sort by number of criterias and add to cart a specific product. You can find the PLP on this link - https://c4-nexus.github.io/
+PLP on which you can choose between three categories, filter based on two criterias simultaneously, sort by number of criterias and add to cart a specific product.
 
 # Technical stack
 1. HTML
